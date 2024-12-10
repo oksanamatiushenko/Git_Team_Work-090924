@@ -13,7 +13,6 @@ if [ ! -d "$source_directory" ]; then
    exit 1
 else
    echo "Исходная директория $source_directory существует."
-   exit 1
 fi
 
 # Проверка существования целевой директории
@@ -23,7 +22,6 @@ if [ ! -d "$target_directory" ]; then
    exit 1
 else 
    echo "Целевая директория $target_directory существует."
-   exit 1
 fi
 
 # Проверка, есть ли файлы с указанным расширением в исходной директории
